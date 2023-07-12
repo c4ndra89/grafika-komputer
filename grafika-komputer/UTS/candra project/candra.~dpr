@@ -1,0 +1,13 @@
+program candra;
+
+uses
+  Forms,
+  tugascandra in 'C:\Users\user\Downloads\Tugas uts candra\tugascandra.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
